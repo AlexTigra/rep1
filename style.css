@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* вирівнювання по горизонталі x*/
+    align-items: center; /* вирівнювання по вертикалі y*/
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+}
+.text{
+    text-align: center;
+    font-family: "Arimo"
+}
+.btn{
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: "Arimo";
+}
+.btn:hover{
+    background-color: #0053ac;
+    transition: 0.3s;
+}
